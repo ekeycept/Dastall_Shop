@@ -1,0 +1,301 @@
+/*
+Theme Name: ZEFIR
+Version: 2
+Description: Тема для моего интернет-магазина
+Author: Даниил Горбонос
+Author URI: https://ekeycept.com
+*/
+	
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav {
+		width: 100%;
+		height: 80px;
+	}
+	
+	.nav-item {
+		margin-left: 20px;
+	}
+	
+	button {
+		background-color: yellow;
+	}
+	
+	#search {
+		margin-top: 10px;
+		width: 300px;
+		margin-right: 400px;
+	}
+	
+	#section {
+		background-color: #FF6631;
+		width: 100%;
+		height: 80px;
+		color: black;
+		text-align:center;
+		padding-top: 15px;
+		margin-top: 20px;
+		
+	}
+	
+	#ssection {
+		background-color: yellow;
+		color: black;
+	}
+	
+	#myCarousel {
+		width: 100%;
+		background-color: white;
+	}
+	
+	.carousel-caption {
+		bottom: 3rem;
+		z-index: 10;
+	}
+
+	#carousel-item-1 {
+		height: 50rem;
+	}
+	.carousel-item {
+		height: 50rem;
+		background-color: #777;
+	}
+	.carousel-item > img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1500px;
+	}
+	
+	.carousel-control-prev-icon {
+		margin-right: 100px;
+	}
+	
+	.carousel-control-next-icon {
+		margin-left: 100px;
+	}
+	
+	footer {
+		background-color:  #343A40;
+		width: 100%;
+		color: white;
+		padding: 0px;
+	}
+	
+	#copyright {
+		text-align: right;
+		margin-right: 20px;
+		font-size: 110%;
+	}
+	
+	a {
+		font-size: 120%;
+	}
+	
+	.navbar-collapse {
+		background-color: #343A40;
+		padding-left: 15px;
+	}
+	
+	@media(max-width: 50em) {
+		#section {
+			height: 200px;
+			background-color: #FF6631;
+			width: 100%;
+			color: black;
+			text-align:center;
+			padding-top: 15px;
+			margin-top: 20px;
+		}
+	}
+	
+	@media(max-width: 70em) {
+		#section {
+			height: 200px;
+			background-color: #FF6631;
+			width: 100%;
+			color: black;
+			text-align:center;
+			padding-top: 15px;
+			margin-top: 20px;
+		}
+		#copyright {
+		text-align: center;
+		font-size: 110%;
+		margin-left: 20px;
+	}
+	}
+	
+	@media (min-width: 768px) {
+		.dropdown:hover .dropdown-menu{
+			margin-top:0;
+			display:block;
+			width: 700px;
+		}
+	}
+	
+	.image-container {
+		margin-left: 300px;
+		width:450px;
+		height: 650px;
+	}
+	
+	#price-description {
+		margin-left: 790px;
+		margin-top: -500px;
+	}
+	
+	#catalog-album {
+		margin-top: 300px;
+	}
+	
+	#stopka-0 {
+			margin-left: 220px;
+			margin-top: 20px;
+			float: left;
+			position: absolute;
+	}
+	
+	#stopka-1 {
+			margin-left: 220px;
+			margin-top: 120px;
+			float: left;
+			position: absolute;
+	}
+	
+	#stopka-2 {
+			float: left;
+			margin-top: 220px;
+			position: absolute;
+			margin-left: 220px;
+	}
+	
+	#stopka-3 {
+			float: left;
+			margin-top: 320px;
+			position: absolute;
+			margin-left: 220px;
+	}
+	
+	#card-catalog {
+		float: left;
+		width: 18rem;
+		margin-left: 40px;
+		margin-bottom: 30px;
+		height: 40rem;
+	}
+	
+	#list {
+		padding-right: 20px;
+		width: 55px;
+		height: 55px;
+	}
+	
+	@media (max-width: 768px) {
+		#list {
+			display: none;
+		}
+	}
+	
+	#block {
+		height: 100%;
+		width: 250px;
+		position: absolute;
+		z-index: 1;
+		font-size: 80%;
+		margin-top: 40px;
+		background-color: #343A40;
+		color: white;
+		display: none;
+	}
+	#block a:hover {
+		background-color: #343A40;
+		text-shadow: 3px 1px #5F5F5F;
+		margin: 5px
+	}
+	
+	#block a {
+		margin: 10px 0 10px 0;
+	}
+	
+	#forma {
+		width: 500px;
+		height: 500px;
+		margin-left: 430px;
+		margin-top: 200px;
+	}
+	
+	#pusto {
+		width: 100%;
+		height: 100%;
+	}
+	
+		#block-main {
+		height: 100%;
+		width: 250px;
+		position: absolute;
+		z-index: 1;
+		font-size: 80%;
+		padding-top: 80px;
+		background-color: #343A40;
+		color: white;
+		display: none;
+	}
+	#block-main a:hover {
+		background-color: #343A40;
+		text-shadow: 3px 1px #5F5F5F;
+		margin: 5px
+	}
+	
+	#block-main a {
+		margin: 10px 0 10px 0;
+	}
+	
+	#block-account {
+		height: 100%;
+		width: 250px;
+		position: absolute;
+		z-index: 1;
+		font-size: 80%;
+		background-color: #343A40;
+		color: white;
+		display: none;
+		margin-top: -120px;
+	}
+	
+	#block-account a:hover {
+		background-color: #343A40;
+		text-shadow: 3px 1px #5F5F5F;
+		margin: 5px
+	}
+	
+	#block-account a {
+		margin: 10px 0 10px 0;
+	}
+	
+	#block-product {
+		height: 100%;
+		width: 250px;
+		position: absolute;
+		z-index: 1;
+		font-size: 80%;
+		background-color: #343A40;
+		color: white;
+		display: none;
+		margin-top: 0px;
+	}
+	
+	#block-product a:hover {
+		background-color: #343A40;
+		text-shadow: 3px 1px #5F5F5F;
+		margin: 5px
+	}
+	
+	#block-product a {
+		margin: 10px 0 10px 0;
+	}
+	
+	
